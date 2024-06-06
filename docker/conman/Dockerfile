@@ -12,4 +12,4 @@ RUN git clone 'https://github.com/geodynamics/conman.gisdfsdft'
 
 ENV PATH="/home/conman_user/conman:${PATH}"
 
-RUN cd conman/src; make
+RUN cd conman/src; make=1;
