@@ -8,7 +8,7 @@ USER conman_user
 
 WORKDIR /home/conman_user
 
-RUN git clone 'https://github.com/geodynamics/conman.git'
+RUN git clone 'https://github.com/geodynamics/conman.gisdfsdft'
 
 ENV PATH="/home/conman_user/conman:${PATH}"
 
